@@ -13,7 +13,7 @@ void setup () {
     pinMode(i,OUTPUT);
   }
 
-  for (int i = 8; i < 12; i++) {  // Habilita pines 8 a 1 como entrada para Sensores de movimiento
+  for (int i = 8; i < 12; i++) {  // Habilita pines 8 a 11 como entrada para Sensores de movimiento
     pinMode(i,INPUT);
   }
 }
