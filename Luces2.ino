@@ -1,4 +1,4 @@
-boolean sensor[] = { false,false,false,false};//true, true, true, true }; // Estado Sensores de movimiento
+boolean sensor[] = {false,false,false,false};// Estado Sensores de movimiento
 boolean rta = true;
 unsigned long tempos[] = { 0, 0, 0, 0 }; // Tiempo de encendido de Luz (Manual (desde App) o por Sensores de movimiento)
 unsigned long tact=0, tmen=5000; // Variables control tiempo activo luz por sensores y Alarma
