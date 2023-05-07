@@ -7,7 +7,6 @@ unsigned long tact=0, tmen=5000; // Variables control tiempo activo luz por sens
 
 void setup () { 
   Serial.begin(9600);
-  pinMode(3,OUTPUT); // Habilita pin 3 para la Alarma (zumbador)
 
   for (int i = 4; i < 8; i++) {  // Habilita pines 4 a 7 como salida para Luces
     pinMode(i,OUTPUT);
