@@ -148,7 +148,7 @@ void loop () {
   //Habitación
   if(tempos[3]==0 and digitalRead(11)==HIGH and sensor[3]) {
     digitalWrite(7,HIGH);
-    Serial.print("N");
+    Serial.print("O");
     delay(100);
   }
   if(digitalRead(11)==HIGH and digitalRead(7)==HIGH){
